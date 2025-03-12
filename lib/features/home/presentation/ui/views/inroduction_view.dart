@@ -86,8 +86,9 @@ class _InroductionViewState extends State<InroductionView>
               duration: const Duration(seconds: 1),
               child: Image.asset(
                 ImageConstants.profile,
-                width: 300.w,
-                height: 300.h,
+
+                width: 700.w,
+                height: 820.h,
               ),
             ),
           ],

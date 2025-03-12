@@ -17,14 +17,14 @@ class ImageConstants {
   static const task10 = 'images/task_bite/10.jpg';
 
   //newzly
-  static const newzly = 'images/newzly_bite/news.png';
-  static const newzly1 = 'images/newzly_bite/1.jpg';
-  static const newzly2 = 'images/newzly_bite/2.jpg';
-  static const newzly3 = 'images/newzly_bite/3.jpg';
-  static const newzly4 = 'images/newzly_bite/4.jpg';
-  static const newzly5 = 'images/newzly_bite/5.jpg';
-  static const newzly6 = 'images/newzly_bite/6.jpg';
-  static const newzly7 = 'images/newzly_bite/7.jpg';
+  static const newzly = 'images/newzly/news.png';
+  static const newzly1 = 'images/newzly/1.jpg';
+  static const newzly2 = 'images/newzly/2.jpg';
+  static const newzly3 = 'images/newzly/3.jpg';
+  static const newzly4 = 'images/newzly/4.jpg';
+  static const newzly5 = 'images/newzly/5.jpg';
+  static const newzly6 = 'images/newzly/6.jpg';
+  static const newzly7 = 'images/newzly/7.jpg';
 
   //lola
   static const lola = 'images/lola/lola.jpg';
