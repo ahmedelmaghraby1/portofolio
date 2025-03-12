@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:portofolio/core/constants/images.dart';
 
 class InroductionView extends StatefulWidget {
   const InroductionView({super.key});
@@ -57,35 +58,40 @@ class _InroductionViewState extends State<InroductionView>
   Widget build(BuildContext context) {
     return Padding(
       padding: EdgeInsetsDirectional.only(top: 100.h, bottom: 30.h),
-      child: Column(
-        spacing: 20.h,
-        mainAxisAlignment: MainAxisAlignment.start,
-        children: [
-          SlideTransition(
-            position: _firstTextAnimation,
-            child: Text(
-              "Hi, I’m Ahmed Elmaghraby",
-              style: Theme.of(context).textTheme.titleLarge,
+      child: SingleChildScrollView(
+        child: Column(
+          spacing: 20.h,
+          mainAxisAlignment: MainAxisAlignment.start,
+          children: [
+            SlideTransition(
+              position: _firstTextAnimation,
+              child: Text(
+                "Hi, I’m Ahmed Elmaghraby",
+                style: Theme.of(context).textTheme.titleLarge,
+              ),
             ),
-          ),
-          AnimatedOpacity(
-            opacity: secondWord ? 1 : 0,
-            duration: const Duration(seconds: 1),
-            child: Text(
-              "Software Engineer | Front-End Developer | Senior Flutter developer 🚀",
-              style: Theme.of(
-                context,
-              ).textTheme.bodyLarge!.copyWith(fontSize: 24),
+            AnimatedOpacity(
+              opacity: secondWord ? 1 : 0,
+              duration: const Duration(seconds: 1),
+              child: Text(
+                "Software Engineer | Front-End Developer | Senior Flutter developer 🚀",
+                style: Theme.of(
+                  context,
+                ).textTheme.bodyLarge!.copyWith(fontSize: 24),
+              ),
             ),
-          ),
-          Expanded(
-            child: AnimatedOpacity(
+            SizedBox(height: 50.h),
+            AnimatedOpacity(
               opacity: viewImage ? 1 : 0,
               duration: const Duration(seconds: 1),
-              child: Image.asset('images/profile.jpg', width: 150, height: 150),
+              child: Image.asset(
+                ImageConstants.profile,
+                width: 300.w,
+                height: 300.h,
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       ),
     );
   }

@@ -14,11 +14,6 @@ class Portofolio extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         home: HomeScreen(),
         theme: AppThemes.lightTheme,
-        // darkTheme: AppThemes.darkTheme,
-        // themeMode:
-        //     ThemingCubit.get(context).darkMode
-        //         ? ThemeMode.dark
-        //         : ThemeMode.light,
       ),
     );
   }

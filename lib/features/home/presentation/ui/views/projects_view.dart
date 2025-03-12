@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
+import 'package:portofolio/features/home/data/projects.dart';
 import 'package:portofolio/features/home/presentation/ui/widgets/project_container.dart';
 
 class ProjectsView extends StatefulWidget {
@@ -29,34 +30,12 @@ class _ProjectsViewState extends State<ProjectsView> {
             SizedBox(height: 60.h),
 
             Wrap(
-              spacing: 20.w,
+              spacing: 25.w,
               runSpacing: 20.h,
-              children: [
-                ProjectContainer(
-                  projectName: 'Task bite',
-                  icon: 'images/icon.png',
-                  projectDescription:
-                      "Taskbite - Your Ultimate Task Manager.\n Taskbite is a powerful yet simple task management app designed to boost your productivity. With its intuitive interface and smart features, organizing your tasks has never been easier.",
-                ),
-                ProjectContainer(
-                  projectName: 'Task bite',
-                  icon: 'images/icon.png',
-                  projectDescription:
-                      "Taskbite - Your Ultimate Task Manager.\n Taskbite is a powerful yet simple task management app designed to boost your productivity. With its intuitive interface and smart features, organizing your tasks has never been easier.",
-                ),
-                ProjectContainer(
-                  projectName: 'Task bite',
-                  icon: 'images/icon.png',
-                  projectDescription:
-                      "Taskbite - Your Ultimate Task Manager.\n Taskbite is a powerful yet simple task management app designed to boost your productivity. With its intuitive interface and smart features, organizing your tasks has never been easier.",
-                ),
-                ProjectContainer(
-                  projectName: 'Task bite',
-                  icon: 'images/icon.png',
-                  projectDescription:
-                      "Taskbite - Your Ultimate Task Manager.\n Taskbite is a powerful yet simple task management app designed to boost your productivity. With its intuitive interface and smart features, organizing your tasks has never been easier.",
-                ),
-              ],
+              children: List.generate(
+                projects.length,
+                (index) => ProjectContainer(project: projects[index]),
+              ),
             ),
           ],
         ),

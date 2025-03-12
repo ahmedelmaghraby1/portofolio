@@ -63,7 +63,6 @@ class _HomeScreenState extends State<HomeScreen>
             Tab(text: 'Introduction', icon: Icon(Icons.home)),
             Tab(text: 'About me', icon: Icon(Icons.person)),
             Tab(text: 'Projects', icon: Icon(Icons.folder)),
-            // Tab(text: 'Skills', icon: Icon(Icons.construction)),
             Tab(text: 'Contact', icon: Icon(Icons.contact_phone)),
           ],
         ),
