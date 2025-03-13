@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:portofolio/core/constants/fonts.dart';
-import 'package:portofolio/core/theme/theming_assets/colors.dart';
-import 'package:portofolio/core/theme/theming_assets/styles.dart';
+import 'package:Portfolio/core/constants/fonts.dart';
+import 'package:Portfolio/core/theme/theming_assets/colors.dart';
+import 'package:Portfolio/core/theme/theming_assets/styles.dart';
 
 class AppThemes {
   // Light Theme

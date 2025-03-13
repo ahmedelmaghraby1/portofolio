@@ -1,5 +1,5 @@
-import 'package:portofolio/core/constants/images.dart';
-import 'package:portofolio/features/home/domain/entities/project_entity.dart';
+import 'package:Portfolio/core/constants/images.dart';
+import 'package:Portfolio/features/home/domain/entities/project_entity.dart';
 
 List<ProjectEntity> projects = [
   ProjectEntity(

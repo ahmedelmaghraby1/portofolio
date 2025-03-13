@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:portofolio/features/home/domain/entities/project_entity.dart';
+import 'package:Portfolio/features/home/domain/entities/project_entity.dart';
 
 class ProjectScreen extends StatelessWidget {
   final ProjectEntity project;

@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:portofolio/core/constants/images.dart';
+import 'package:Portfolio/core/constants/images.dart';
 
 class InroductionView extends StatefulWidget {
   const InroductionView({super.key});
@@ -74,7 +74,7 @@ class _InroductionViewState extends State<InroductionView>
               opacity: secondWord ? 1 : 0,
               duration: const Duration(seconds: 1),
               child: Text(
-                "Software Engineer | Front-End Developer | Senior Flutter developer 🚀",
+                "Software Engineer | Mobile App Developer | Senior Flutter developer 🚀",
                 style: Theme.of(
                   context,
                 ).textTheme.bodyLarge!.copyWith(fontSize: 24),

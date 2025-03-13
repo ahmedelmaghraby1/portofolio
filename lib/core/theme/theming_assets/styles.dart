@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:portofolio/core/theme/theming_assets/colors.dart';
+import 'package:Portfolio/core/theme/theming_assets/colors.dart';
 
 class AppTextStyles {
   // Light theme
