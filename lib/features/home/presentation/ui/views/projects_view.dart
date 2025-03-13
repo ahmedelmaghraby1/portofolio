@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:portofolio/features/home/data/projects.dart';
-import 'package:portofolio/features/home/presentation/ui/widgets/project_container.dart';
+import 'package:Portfolio/features/home/data/projects.dart';
+import 'package:Portfolio/features/home/presentation/ui/widgets/project_container.dart';
 
 class ProjectsView extends StatefulWidget {
   const ProjectsView({super.key});

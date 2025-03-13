@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:portofolio/core/source/app.dart';
+import 'package:Portfolio/core/source/app.dart';
 
 void main() {
-  runApp(const Portofolio());
+  runApp(const Portfolio());
 }

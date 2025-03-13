@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:portofolio/features/home/domain/entities/project_entity.dart';
-import 'package:portofolio/features/home/presentation/ui/screens/project_screen.dart';
+import 'package:Portfolio/features/home/domain/entities/project_entity.dart';
+import 'package:Portfolio/features/home/presentation/ui/screens/project_screen.dart';
 
 class ProjectContainer extends StatefulWidget {
   final ProjectEntity project;

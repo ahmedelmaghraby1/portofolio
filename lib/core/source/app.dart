@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
-import 'package:portofolio/core/theme/theming_assets/themes.dart';
-import 'package:portofolio/features/home/presentation/ui/screens/home_screen.dart';
+import 'package:Portfolio/core/theme/theming_assets/themes.dart';
+import 'package:Portfolio/features/home/presentation/ui/screens/home_screen.dart';
 
-class Portofolio extends StatelessWidget {
-  const Portofolio({super.key});
+class Portfolio extends StatelessWidget {
+  const Portfolio({super.key});
 
   @override
   Widget build(BuildContext context) {

@@ -1,9 +1,9 @@
 import 'dart:ui';
 import 'package:flutter/material.dart';
-import 'package:portofolio/features/home/presentation/ui/views/about_me_view.dart';
-import 'package:portofolio/features/home/presentation/ui/views/contact_me_view.dart';
-import 'package:portofolio/features/home/presentation/ui/views/inroduction_view.dart';
-import 'package:portofolio/features/home/presentation/ui/views/projects_view.dart';
+import 'package:Portfolio/features/home/presentation/ui/views/about_me_view.dart';
+import 'package:Portfolio/features/home/presentation/ui/views/contact_me_view.dart';
+import 'package:Portfolio/features/home/presentation/ui/views/inroduction_view.dart';
+import 'package:Portfolio/features/home/presentation/ui/views/projects_view.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({super.key});
